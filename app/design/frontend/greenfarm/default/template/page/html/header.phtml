@@ -28,14 +28,16 @@
  */
 ?>
 
-<div class="header-language-background">
-    <div class="container header-language-container">
+<div class="header-grid">
+    <div class="container">
         <div class="nav-right">
-            <ul>
-                <li class="in-up">Hotline: <a href="tel:1234 1234 123 (24/7)" class="scroll">1234 1234 123 (24/7)</a> <label>|</label></li>
-                <li class="in-up">Email: <a href="mailto:admin@greenfarm.dev" class="scroll">admin@greenfarm.dev</a> </li>
+            <ul class="list">
+                <li class="in-up">Hotline: <a href="tel:1234 1234 123 (24/7)" class="scroll">1234 1234 123 (24/7)</a>
+                    <label>|</label></li>
+                <li class="in-up">Email: <a href="mailto:admin@greenfarm.dev" class="scroll">admin@greenfarm.dev</a>
+                </li>
             </ul>
-            <div class="store-language-container">
+            <div class="store-language">
                 <?php echo $this->getChildHtml('store_language') ?>
             </div>
 
@@ -48,10 +50,11 @@
 </div>
 
 <header id="header" class="page-header">
-    <div class="container page-header-container">
+    <div class="container">
         <a class="logo" href="<?php echo $this->getUrl('') ?>">
             <img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="large"/>
-            <img src="<?php echo $this->getLogoSrcSmall() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="small"/>
+            <img src="<?php echo $this->getLogoSrcSmall() ?>" alt="<?php echo $this->getLogoAlt() ?>"
+                 class="small"/>
         </a>
 
         <?php // In order for the language switcher to display next to logo on smaller viewports, it will be moved here.
@@ -84,14 +87,6 @@
                     <?php echo $this->getChildHtml('minicart_head'); ?>
                 </div>
             </div>
-
-
-        </div>
-
-        <!-- Navigation -->
-
-        <div id="header-nav" class="skip-content menu">
-            <?php echo $this->getChildHtml('topMenu') ?>
         </div>
 
         <!-- Search -->
@@ -100,11 +95,19 @@
             <?php echo $this->getChildHtml('topSearch') ?>
         </div>
 
-        <!-- Account -->
+    </div>
 
-        <div id="header-account" class="skip-content">
-            <?php echo $this->getChildHtml('topLinks') ?>
+    <!-- Navigation -->
+
+    <div id="header-nav" class="skip-content menu">
+        <div class="container">
+            <?php echo $this->getChildHtml('topMenu') ?>
         </div>
+    </div>
+    <!-- Account -->
+
+    <div id="header-account" class="skip-content">
+        <?php echo $this->getChildHtml('topLinks') ?>
     </div>
 </header>
 

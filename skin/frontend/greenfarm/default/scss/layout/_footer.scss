@@ -33,8 +33,11 @@
 .footer {
     clear: both;
     width: 100%;
-    border-top: 1px solid $c-module-border;
     padding-top: $trim;
+    background-color: $color03;
+    border-top: 1px solid $c-module-border;
+    font-size: $f-size;
+    color: $color05;
 
     @include bp(max-width, $bp-xsmall) {
         padding-top: $trim-small;
@@ -49,8 +52,9 @@
             font-size: 14px;
         }
         .title {
+            margin-bottom: 20px;
             font-size: 15px;
-            color: $c-blue;
+            color: $color04;
         }
     }
 
@@ -103,7 +107,7 @@
     .links {
         padding: 0 $trim 0 0;
         margin-bottom: $trim;
-
+        font-size: $f-size;
         li {
             word-break: break-all;
             line-height: 1.4;
@@ -111,9 +115,10 @@
         }
 
         a {
-            color: $c-text;
+            color: $color05;
+            text-decoration: none;
             &:hover {
-                color: $c-action;
+                color: $color04;
             }
         }
     }
@@ -124,9 +129,7 @@
         margin-bottom: $trim;
     }
 
-    .links,
     .block-subscribe {
-        text-transform: uppercase;
         font-size: $f-size-xs;
     }
 

@@ -34,14 +34,15 @@
 
 }
 
-/* ============================================ *
- * Language switcher + welcome message
- * ============================================ */
+/* ===================================================== *
+ * Language switcher + welcome message + header-grid
+ * ===================================================== */
 
 .header-language-background {
     padding: $gap;
     background-color: $c-action;
     text-transform: uppercase;
+    color: $c-text-white;
 
     .header-language-container {
         max-width: $max-content-width;
@@ -51,6 +52,9 @@
 
     &:after {
         @include clearfix;
+    }
+    a {
+        color: $c-text-white;
     }
 
     .form-language,
@@ -62,6 +66,14 @@
     .welcome-msg {
         float: right;
     }
+}
+
+@include bp(max-width, $bp-medium) {
+
+    .header-language-background {
+        display: none;
+    }
+
 }
 
 .page-header-container .store-language-container {
@@ -87,20 +99,39 @@
         }
     }
 }
-
-.header-language-background,
-.header-language-background a {
-    color: $c-text-white;
-}
-
-@include bp(max-width, $bp-medium) {
-
-    .header-language-background {
-        display: none;
+.header-grid {
+    background-color: $c-blue;
+    .container {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        &:before,
+        &:after {
+            @include clearfix;
+        }
     }
-
+    .nav-right {
+        float: right;
+    }
+    .list,
+    .list li,
+    .store-language {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .list {
+        color: $c-white;
+        li {
+            margin-right: 10px;
+        }
+        a {
+            color: $c-white;
+            margin-left: 5px;
+        }
+        label {
+            margin-right: 10px;
+        }
+    }
 }
-
 /* ============================================ *
  * Logo
  * ============================================ */
