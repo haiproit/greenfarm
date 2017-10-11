@@ -2656,13 +2656,14 @@ body {
 /* ============================================ *
  * Header
  * ============================================ */
-/* ============================================ *
- * Language switcher + welcome message
- * ============================================ */
+/* ===================================================== *
+ * Language switcher + welcome message + header-grid
+ * ===================================================== */
 .header-language-background {
   padding: 10px;
   background-color: #3399CC;
   text-transform: uppercase;
+  color: #E6E6E6;
 }
 .header-language-background .header-language-container {
   max-width: 1200px;
@@ -2673,6 +2674,9 @@ body {
   content: '';
   display: table;
   clear: both;
+}
+.header-language-background a {
+  color: #E6E6E6;
 }
 .header-language-background .form-language,
 .header-language-background .currency-switcher {
@@ -2695,9 +2699,39 @@ body {
   max-width: 100%;
 }
 
-.header-language-background,
-.header-language-background a {
-  color: #E6E6E6;
+.header-grid {
+  background-color: #3399CC;
+}
+.header-grid .container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.header-grid .container:before, .header-grid .container:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.header-grid .nav-right {
+  float: right;
+}
+.header-grid .list,
+.header-grid .list li,
+.header-grid .store-language {
+  display: inline-block;
+  vertical-align: top;
+}
+.header-grid .list {
+  color: #ffffff;
+}
+.header-grid .list li {
+  margin-right: 10px;
+}
+.header-grid .list a {
+  color: #ffffff;
+  margin-left: 5px;
+}
+.header-grid .list label {
+  margin-right: 10px;
 }
 
 /* ============================================ *
@@ -3311,8 +3345,11 @@ a.skip-link {
 .footer {
   clear: both;
   width: 100%;
-  border-top: 1px solid #CCCCCC;
   padding-top: 30px;
+  background-color: #131313;
+  border-top: 1px solid #CCCCCC;
+  font-size: 14px;
+  color: #999;
   /* -------------------------------------------- *
    * Social icons
    */
@@ -3327,8 +3364,9 @@ a.skip-link {
   font-size: 14px;
 }
 .footer .row .title {
+  margin-bottom: 20px;
   font-size: 15px;
-  color: #3399CC;
+  color: #f90;
 }
 .footer .connect .tm-social-tit {
   margin-bottom: 5px;
@@ -3373,6 +3411,7 @@ a.skip-link {
 .footer .links {
   padding: 0 30px 0 0;
   margin-bottom: 30px;
+  font-size: 14px;
 }
 .footer .links li {
   word-break: break-all;
@@ -3380,19 +3419,18 @@ a.skip-link {
   padding: 4px 0;
 }
 .footer .links a {
-  color: #636363;
+  color: #999;
+  text-decoration: none;
 }
 .footer .links a:hover {
-  color: #3399CC;
+  color: #f90;
 }
 .footer .block-subscribe {
   float: right;
   width: 320px;
   margin-bottom: 30px;
 }
-.footer .links,
 .footer .block-subscribe {
-  text-transform: uppercase;
   font-size: 12px;
 }
 .footer .form-subscribe-header {
