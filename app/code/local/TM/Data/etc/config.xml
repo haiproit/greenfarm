@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <TM_Data>
+            <version>0.1.0</version>
+        </TM_Data>
+    </modules>
+    <global>
+        <models>
+            <tm_data>
+                <class>TM_Data_Model</class>
+                <resourceModel>tm_data_resource</resourceModel>
+            </tm_data>
+            <tm_data_resource>
+                <class>TM_Data_Model_Resource</class>
+            </tm_data_resource>
+        </models>
+        <helpers>
+            <tm_data>
+                <class>TM_Data_Helper</class>
+            </tm_data>
+        </helpers>
+        <resources>
+            <tm_data_setup>
+                <setup>
+                    <module>TM_Data</module>
+                </setup>
+            </tm_data_setup>
+        </resources>
+    </global>
+</config>

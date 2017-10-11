@@ -1,0 +1,8 @@
+<config>
+  <modules>
+    <TM_Theme>
+      <active>true</active>
+      <codePool>local</codePool>
+    </TM_Theme>
+  </modules>
+</config>

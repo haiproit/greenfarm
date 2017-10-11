@@ -1,0 +1,57 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magento.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magento.com for more information.
+ *
+ * @category    design
+ * @package     rwd_default
+ * @copyright   Copyright (c) 2006-2017 X.commerce, Inc. and affiliates (http://www.magento.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * @var Mage_Page_Block_Html_Header $this
+ */
+?>
+
+<div class="header-page navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <button type="button" class="navbar-left navbar-toggle hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <?php echo $this->getChildHtml('topSearch') ?>
+        <div class="brand-logo">
+            <a href="<?php echo $this->getUrl('') ?>">
+                <img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="logo-sign" />
+            </a>
+        </div>
+        <div class="header-minicart">
+            <ul class="nav navbar-nav navbar-right cart-right">
+              <?php if (!Mage::getSingleton('customer/session')->isLoggedIn()): ?>
+                  <li class="hidden-xs"><a href="" data-toggle="modal" data-target="#signIn"><?php echo $this->__('Sign In') ?></a></li>
+              <?php else: ?>
+                  <li class="hidden-xs"><a href="<?php echo Mage::helper('customer')->getLogoutUrl(); ?>"><?php echo $this->__('Sign Out') ?></a></li>
+              <?php endif; ?>
+                <li class="list-minicart">
+                    <?php echo $this->getChildHtml('minicart_head'); ?>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

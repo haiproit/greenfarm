@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <!--<reference name="head">-->
+            <!--<action method="addItem"><type>skin_css</type><name>css/spinner.css</name><params/></action>-->
+            <!--<action method="addItem"><type>skin_css</type><name>css/simple-line-icons.css</name><params/></action>-->
+            <!--<action method="addItem"><type>skin_css</type><name>css/bootstrap.css</name><params/></action>-->
+            <!--<action method="addItem"><type>skin_css</type><name>css/simple-line-icons.css</name><params/></action>-->
+            <!--<action method="addItem"><type>skin_css</type><name>css/ts-icons.css</name><params/></action>-->
+            <!--<action method="addItem"><type>skin_css</type><name>css/font-stylesheet.css</name><params/></action>-->
+            <!--<action method="addItem"><type>skin_css</type><name>css/flickity.css</name><params/></action>-->
+            <!--<action method="addItem"><type>skin_css</type><name>css/offcanvas.css</name><params/></action>-->
+            <!--<action method="addItem"><type>skin_css</type><name>css/ts-icons.css</name><params/></action>-->
+            <!--<action method="addItem"><type>skin_css</type><name>css/customize.css</name><params/><if><![CDATA[&lt;!&ndash;[if (gte IE 9) | (IEMobile)]>&lt;!&ndash;>]]></if></action>-->
+            <!--<action method="addItem"><type>skin_js</type><name>js/bootstrap.min.js</name></action>-->
+            <!--<action method="addItem"><type>skin_js</type><name>js/parallax.js</name></action>-->
+            <!--<action method="addItem"><type>skin_js</type><name>js/flickity.pkgd.min.js</name></action>-->
+            <!--<action method="addItem"><type>skin_js</type><name>js/main.js</name></action>-->
+        <!--</reference>-->
+
+        <reference name="after_body_start">
+            <!--<block type="core/template" name="canvas-menu" template="page/home/left-menu.phtml">-->
+                <!--<block type="core/template" name="right.search" as="left_search" template="catalogsearch/form.mini.left.phtml"/>-->
+            <!--</block>-->
+
+        </reference>
+
+        <!-- Mage_Newsletter -->
+        <reference name="footer">
+            <block type="newsletter/subscribe" name="header.newsletter" as="newsletter" before="footer_store_language" template="newsletter/subscribe.phtml"/>
+        </reference>
+
+    </default>
+
+    <page_full_width translate="label">
+        <label>Full Width Layout</label>
+        <reference name="root">
+            <action method="setTemplate"><template>page/full_width.phtml</template></action>
+            <!-- Mark root page block that template is applied -->
+            <action method="setIsHandle"><applied>1</applied></action>
+        </reference>
+    </page_full_width>
+
+    <cms_index_index>
+        <reference name="content">
+            <block type="headerslider/headerslider" name="header_slider" template="page/home/header-slider.phtml" before="-" />
+
+            <block type="page/html_wrapper" name="home_list_product_wrap" htmlClass="" after="header_slider" translate="label">
+                <action method="setElementClass"><value>pro-container text-center</value></action>
+                <block type="core/template" name="home_filter_attributes" template="catalog/link/attribute-links.phtml" />
+                <block type="ts_catalog/fashion" name="home_list_product" template="catalog/product/list.phtml" />
+            </block>
+
+        </reference>
+    </cms_index_index>
+
+  </layout>

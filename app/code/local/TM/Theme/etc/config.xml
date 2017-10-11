@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <TM_Theme>
+            <version>0.1.0</version>
+        </TM_Theme>
+    </modules>
+    <global>
+        <page>
+            <layouts>
+                <fullwidth module="page" translate="label">
+                    <label>Full width</label>
+                    <template>page/full_width.phtml</template>
+                    <layout_handle>page_full_width</layout_handle>
+                </fullwidth>
+            </layouts>
+        </page>
+    </global>
+</config>
