@@ -49,10 +49,6 @@
                 <action method="setBlockId"><block_id>header_main_slider</block_id></action>
             </block>
 
-            <block type="cms/block" name="footer_information_left_en">
-                <action method="setBlockId"><block_id>footer_information_left_en</block_id></action>
-            </block>
-
             <block type="cms/block" name="home_combo_products">
                 <action method="setBlockId"><block_id>home_combo_products</block_id></action>
             </block>
