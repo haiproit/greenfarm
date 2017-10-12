@@ -43,12 +43,22 @@
 
     <cms_index_index>
         <reference name="content">
-            <block type="headerslider/headerslider" name="header_slider" template="page/home/header-slider.phtml" before="-" />
+            <!--<block type="headerslider/headerslider" name="header_slider" template="page/home/header-slider.phtml" before="-" />-->
 
-            <block type="page/html_wrapper" name="home_list_product_wrap" htmlClass="" after="header_slider" translate="label">
-                <action method="setElementClass"><value>pro-container text-center</value></action>
-                <block type="core/template" name="home_filter_attributes" template="catalog/link/attribute-links.phtml" />
-                <block type="ts_catalog/fashion" name="home_list_product" template="catalog/product/list.phtml" />
+            <block type="cms/block" name="header_main_slider">
+                <action method="setBlockId"><block_id>header_main_slider</block_id></action>
+            </block>
+
+            <block type="cms/block" name="footer_information_left_en">
+                <action method="setBlockId"><block_id>footer_information_left_en</block_id></action>
+            </block>
+
+            <block type="cms/block" name="home_combo_products">
+                <action method="setBlockId"><block_id>home_combo_products</block_id></action>
+            </block>
+
+            <block type="cms/block" name="home_lastest_products">
+                <action method="setBlockId"><block_id>home_lastest_products</block_id></action>
             </block>
 
         </reference>
