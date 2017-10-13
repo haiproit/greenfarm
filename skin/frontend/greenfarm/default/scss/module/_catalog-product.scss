@@ -941,39 +941,92 @@
         }
     }
     .field-content {
-
+        border: 1px solid transparent;
+        &:focus,
+        &:hover {
+            border-color: $c-divider-border;
+            .product-image {
+                &:after {
+                    display: block;
+                }
+                .group-actions {
+                    display: block;
+                }
+            }
+        }
     }
     .product-image {
         position: relative;
+        border: none;
+        &:after {
+            top: 0;
+            left: 0;
+            content: '';
+            width: 100%;
+            height: 100%;
+            display: none;
+            position: absolute;
+            background-color: $bg01;
+        }
         a {
+            height: 230px;
             display: block;
+            position: relative;
+            text-align: center;
         }
         img {
-            max-width: 100%;
-            max-height: 100%;
+            top: 50%;
+            left: 50%;
+            width: auto;
+            height: auto;
+            max-height: 225px;
+            position: absolute;
+            -ms-transform: translate(-50%,-50%);
+            -webkit-transform: translate(-50%,-50%);
+            transform: translate(-50%, -50%);
         }
         .group-actions {
             top: 50%;
             left: 50%;
             z-index: 10;
             position: absolute;
+            display: none;
             -ms-transform: translate(-50%,-50%);
             -webkit-transform: translate(-50%,-50%);
             transform: translate(-50%, -50%);
         }
     }
-    .group-actions {}
-    .btn {
-        border: none;
-        display: inline-block;
-        vertical-align: top;
-        background-position: center center;
-        background-repeat: no-repeat;
-        &-cart {}
-        &-buy-cart {}
+    .group-actions {
+        .btn {
+            width: 35px;
+            height: 35px;
+            margin: 0 5px;
+            border: none;
+            display: inline-block;
+            vertical-align: top;
+            text-indent: -999px;
+            background: {
+                repeat: no-repeat;
+                position: center center;
+                color: transparent;
+            };
+            overflow: hidden;
+            &-add-cart {
+                background: {
+                    image: url(../images/icon-wishlist.png);
+                    size: 100% auto;
+                }
+            }
+            &-buy-cart {
+                background: {
+                    image: url(../images/icon-buy.png);
+                    size: 100% auto;
+                }
+            }
+        }
     }
     .product-info {
-        padding: 10px 0;
+        padding: 10px;
     }
     .product-name {
         font-size: $f-size;

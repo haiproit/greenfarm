@@ -29,16 +29,35 @@ $j(document).ready(function () {
     // UI Pattern - Slideshow
     // ==============================================
 
-    $j('.slideshow-container .slideshow')
-        .cycle({
-            slides: '> li',
-            pager: '.slideshow-pager',
-            pagerTemplate: '<span class="pager-box"></span>',
-            speed: 600,
-            pauseOnHover: true,
-            swipe: true,
-            prev: '.slideshow-prev',
-            next: '.slideshow-next',
-            fx: 'scrollHorz'
-        });
+    // $j('.slideshow-container .slideshow')
+    //     .cycle({
+    //         slides: '> li',
+    //         pager: '.slideshow-pager',
+    //         pagerTemplate: '<span class="pager-box"></span>',
+    //         speed: 600,
+    //         pauseOnHover: true,
+    //         swipe: true,
+    //         prev: '.slideshow-prev',
+    //         next: '.slideshow-next',
+    //         fx: 'scrollHorz'
+    //     });
+    $j('.owl-carousel').owlCarousel({
+        loop:true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:2,
+                nav:false
+            },
+            1000:{
+                items:3,
+                nav:true,
+                loop:false
+            }
+        }
+    })
 });

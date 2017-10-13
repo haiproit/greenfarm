@@ -193,3 +193,194 @@
     padding: 15px;
     opacity: .5;
 }
+
+
+/* ============================================ *
+ * owl-carousel
+ * ============================================ */
+.owl-carousel {
+    display: none;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    /* position relative and z-index fix webkit rendering fonts issue */
+    position: relative;
+    z-index: 1;
+
+    .owl-stage {
+        position: relative;
+        -ms-touch-action: pan-Y;
+        -moz-backface-visibility: hidden; /* fix firefox animation glitch */
+    }
+
+    .owl-stage:after {
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+    }
+
+    .owl-stage-outer {
+        position: relative;
+        overflow: hidden;
+        /* fix for flashing background */
+        -webkit-transform: translate3d(0px, 0px, 0px);
+    }
+
+    .owl-wrapper,
+    .owl-item {
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+    }
+
+    .owl-item {
+        position: relative;
+        min-height: 1px;
+        float: left;
+        -webkit-backface-visibility: hidden;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+        .item {
+            width: 100%;
+        }
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+    .owl-nav.disabled,
+    .owl-dots.disabled {
+        display: none;
+    }
+
+    .owl-nav .owl-prev,
+    .owl-nav .owl-next,
+    .owl-dot {
+        cursor: pointer;
+        cursor: hand;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    &.owl-loaded {
+        display: block;
+    }
+
+    &.owl-loading {
+        opacity: 0;
+        display: block;
+    }
+
+    &.owl-hidden {
+        opacity: 0;
+    }
+
+    &.owl-refresh .owl-item {
+        visibility: hidden;
+    }
+
+    &.owl-drag .owl-item {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    &.owl-grab {
+        cursor: move;
+        cursor: grab;
+    }
+
+    &.owl-rtl {
+        direction: rtl;
+    }
+
+    &.owl-rtl .owl-item {
+        float: right;
+    }
+
+    // Styling Next and Prev buttons
+    .owl-nav {
+
+        [class*='owl-'] {
+            @include border-radius(50%);
+            top:50%;
+            width: 45px;
+            height: 45px;
+            position: absolute;
+            display: inline-block;
+            color: $c-white;
+            font-size: $f-size;
+            cursor: pointer;
+            text-indent: -9999px;
+            -ms-transform: translate(0,-50%);
+            -webkit-transform: translate(0,-50%);
+            transform: translate(0, -50%);
+            background: {
+                repeat: no-repeat;
+                size: 100% auto;
+            }
+            &:focus,
+            &:hover {
+                background-position: 0 -64px;
+            }
+        }
+        .owl-prev {
+            background-image: url(../images/icon-owl-prev.png);
+        }
+
+        .owl-next {
+            background-image: url(../images/icon-owl-next.png);
+        }
+        .disabled {
+            opacity: .5;
+            cursor: default;
+            &:focus,
+            &:hover {
+                background-position: 0 0;
+            }
+        }
+    }
+
+    // Styling dots
+    .owl-nav.disabled + .owl-dots {
+        margin-top: 10px;
+    }
+
+    .owl-dots {
+        text-align: center;
+        -webkit-tap-highlight-color: transparent;
+
+        .owl-dot {
+            display: inline-block;
+            zoom: 1;
+            *display: inline;
+
+            span {
+                width: $gap;
+                height: $gap;
+                margin: $trim;
+                background: $c-gray;
+                display: block;
+                -webkit-backface-visibility: visible;
+                transition: opacity 200ms ease;
+                border-radius: 30px;
+            }
+
+            &.active,
+            &:hover {
+                span {
+                    background: $bg03;
+                }
+            }
+        }
+    }
+}
