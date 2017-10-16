@@ -137,7 +137,6 @@ $nav-primary-height: 30px;
     text-transform: uppercase;
 }
 
-
 .menu {
     .navbar-menu {
         position: relative;
@@ -169,13 +168,13 @@ $nav-primary-height: 30px;
             display: block;
             max-width: 100%;
             position: relative;
-            &:focus
+            &:focus,
             &:hover {
-                .dropdown-menu {
-                    display: block;
-                }
                 > a {
                     color: $color04;
+                }
+                .dropdown-menu {
+                    display: block;
                 }
             }
             > a {

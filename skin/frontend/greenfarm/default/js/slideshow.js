@@ -44,6 +44,7 @@ $j(document).ready(function () {
     $j('.owl-carousel').owlCarousel({
         loop:true,
         responsiveClass:true,
+        dots: false,
         responsive:{
             0:{
                 items:1,
@@ -54,7 +55,7 @@ $j(document).ready(function () {
                 nav:false
             },
             1000:{
-                items:3,
+                items:1,
                 nav:true,
                 loop:false
             }
