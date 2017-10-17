@@ -245,9 +245,6 @@
         -webkit-backface-visibility: hidden;
         -webkit-tap-highlight-color: transparent;
         -webkit-touch-callout: none;
-        .item {
-            width: 100%;
-        }
         img {
             display: block;
             width: 100%;
@@ -312,7 +309,7 @@
 
         [class*='owl-'] {
             @include border-radius(50%);
-            top:50%;
+            top:40%;
             width: 45px;
             height: 45px;
             position: absolute;
@@ -334,10 +331,12 @@
             }
         }
         .owl-prev {
+            left: 0;
             background-image: url(../images/icon-owl-prev.png);
         }
 
         .owl-next {
+            right: 0;
             background-image: url(../images/icon-owl-next.png);
         }
         .disabled {

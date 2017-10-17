@@ -926,18 +926,76 @@
 /* ============================================ *
  * products-items
  * ============================================ */
+$productsGridWidth: 75%;
+$productsPriWidth: 25%;
+$productsItemHeight: 250px;
+
 .products-items {
-    .products-grid {
+    margin-bottom: $box-spacing-large;
+    &:after,
+    &:before {
+        @include clearfix;
+    }
+    &.left {
+        .content {
+            float: right;
+            width: $productsGridWidth;
+        }
+        .banner {
+            float: left;
+        }
+    }
+    &.right {
+        .content {
+            float: left;
+            width: $productsGridWidth;
+        }
+        .banner {
+            float: right;
+        }
+    }
+    .products_grid {
+        padding: 10px;
+        background-color: $c-white;
+        &.grid_2 {
+            .item {
+                width: 50%;
+            }
+        }
+        &.grid_3 {
+            .item {
+                width: 33.333333%;
+            }
+        }
+        &.grid_4 {
+            .item {
+                width: 25%;
+            }
+        }
         .items {
             font-size: 0;
+            &.owl-carousel {
+                .item {
+                    width: 100%;
+                    margin-bottom: 0;
+                }
+            }
         }
         .item {
-            width: 33.333333%;
+            margin-bottom: $trim-small;
             display: inline-block;
             vertical-align: top;
             position: relative;
             font-size: $f-size;
             overflow: hidden;
+        }
+    }
+    .products_title {
+        margin: 0 0 11px;
+        color: $color07;
+        font: {
+            size: $f-size-xxl;
+            family: $f-roboto-sans;
         }
     }
     .field-content {
@@ -973,6 +1031,7 @@
             display: block;
             position: relative;
             text-align: center;
+            overflow: hidden;
         }
         img {
             top: 50%;
@@ -1055,6 +1114,13 @@
             font-size: $f-size-l;
             text-decoration: line-through;
         }
+    }
+    .banner {
+        padding: 10px;
+        width: $productsPriWidth;
+        display: inline-block;
+        vertical-align: top;
+        background-color: $c-white;
     }
 }
 

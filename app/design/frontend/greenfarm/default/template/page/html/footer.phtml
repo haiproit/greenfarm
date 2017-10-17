@@ -27,7 +27,7 @@
 <?php
 $lang = (Mage::app()->getStore()->getStoreID() == 1) ? 'en' : 'vn';
 ?>
-<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('combo_product_test')->toHtml(); ?>
+<?php //echo $this->getLayout()->createBlock('cms/block')->setBlockId('combo_product_test')->toHtml(); ?>
 
 <footer class="footer">
     <div class="container row">
@@ -45,7 +45,8 @@ $lang = (Mage::app()->getStore()->getStoreID() == 1) ? 'en' : 'vn';
         </div>
         <div class="col-4 connect">
             <h4 class="title">Connect Us</h4>
+            <?php echo $this->getChildHtml('newsletter'); ?>
             <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('footer_links_follow_us')->toHtml(); ?>
         </div>
-    </div>
+    </div><!--/ container -->
 </footer>
