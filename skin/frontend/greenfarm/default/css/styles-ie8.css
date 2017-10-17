@@ -5082,9 +5082,11 @@ p.product-name a:hover {
   text-decoration: line-through;
 }
 .products-items .banner {
+  padding: 10px;
   width: 25%;
   display: inline-block;
   vertical-align: top;
+  background-color: #ffffff;
 }
 
 /* ============================================ *

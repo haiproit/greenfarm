@@ -1116,9 +1116,11 @@ $productsItemHeight: 250px;
         }
     }
     .banner {
+        padding: 10px;
         width: $productsPriWidth;
         display: inline-block;
         vertical-align: top;
+        background-color: $c-white;
     }
 }
 
