@@ -32,45 +32,44 @@
 
 <!DOCTYPE html>
 
-<!--[if lt IE 7 ]> <html lang="<?php echo $this->getLang(); ?>" id="top" class="no-js ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="<?php echo $this->getLang(); ?>" id="top" class="no-js ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="<?php echo $this->getLang(); ?>" id="top" class="no-js ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="<?php echo $this->getLang(); ?>" id="top" class="no-js ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="<?php echo $this->getLang(); ?>" id="top" class="no-js"> <!--<![endif]-->
+<!--[if lt IE 7 ]>
+<html lang="<?php echo $this->getLang(); ?>" id="top" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>
+<html lang="<?php echo $this->getLang(); ?>" id="top" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>
+<html lang="<?php echo $this->getLang(); ?>" id="top" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>
+<html lang="<?php echo $this->getLang(); ?>" id="top" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="<?php echo $this->getLang(); ?>" id="top" class="no-js"> <!--<![endif]-->
 
 <head>
-<?php echo $this->getChildHtml('head') ?>
+    <?php echo $this->getChildHtml('head') ?>
 </head>
-<body<?php echo $this->getBodyClass()?' class="'.$this->getBodyClass().'"':'' ?>>
+<body<?php echo $this->getBodyClass() ? ' class="' . $this->getBodyClass() . '"' : '' ?>>
 <div class="wrapper" id="wrapper">
     <?php echo $this->getChildHtml('after_body_start') ?>
     <?php echo $this->getChildHtml('global_notices') ?>
     <div class="page" id="page-content-wrapper">
         <?php echo $this->getChildHtml('header') ?>
-        <div class="pro-container col2-left">
-            <div class="container-fluid pro-wrp">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+        <div class="main col2-left">
+            <div class="container pro-wrp">
+                <div class="row group-my-account">
                     <?php echo $this->getChildHtml('breadcrumbs') ?>
+                    <?php // This left_first block will display above the main content on smaller viewports ?>
+                    <?php if ($_leftContent = $this->getChildHtml('left_first')): ?>
+                        <div class="col-sm-3 sidebar"><?php echo $_leftContent; ?></div>
 
-                    <div class="row">
-                        <?php // This left_first block will display above the main content on smaller viewports ?>
-                        <?php if ($_leftContent = $this->getChildHtml('left_first')): ?>
-                        <div class="col-sm-3 col-xs-12"><?php echo $_leftContent;   ?></div>
-
-                        <div class="tab-content col-sm-9 col-xs-12">
+                        <div class="col-sm-9 tab-content">
                             <?php echo $this->getChildHtml('global_messages') ?>
                             <?php echo $this->getChildHtml('content') ?>
                         </div>
-
-                    </div>
 
                     <?php endif; ?>
 
                     <div class="col-left sidebar"><?php echo $this->getChildHtml('left') ?></div>
                 </div>
             </div>
-        </div>
         </div>
         <?php echo $this->getChildHtml('footer_before') ?>
         <?php echo $this->getChildHtml('footer') ?>

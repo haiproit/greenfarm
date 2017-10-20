@@ -30,23 +30,25 @@ $lang = (Mage::app()->getStore()->getStoreID() == 1) ? 'en' : 'vn';
 <?php //echo $this->getLayout()->createBlock('cms/block')->setBlockId('combo_product_test')->toHtml(); ?>
 
 <footer class="footer">
-    <div class="container row">
-        <div class="col-4">
-            <h4 class="title">GreenFarm 6 Banh</h4>
-            <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('footer_information_left_' . $lang)->toHtml(); ?>
-        </div>
-        <div class="col-4">
-            <h4 class="title">About US</h4>
-            <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('footer_links_about_us_' . $lang)->toHtml(); ?>
-        </div>
-        <div class="col-4">
-            <h4 class="title">Policies</h4>
-            <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('footer_links_policy_' . $lang)->toHtml(); ?>
-        </div>
-        <div class="col-4 connect">
-            <h4 class="title">Connect Us</h4>
-            <?php echo $this->getChildHtml('newsletter'); ?>
-            <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('footer_links_follow_us')->toHtml(); ?>
-        </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <h4 class="title">GreenFarm 6 Banh</h4>
+                <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('footer_information_left_' . $lang)->toHtml(); ?>
+            </div>
+            <div class="col-4">
+                <h4 class="title">About US</h4>
+                <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('footer_links_about_us_' . $lang)->toHtml(); ?>
+            </div>
+            <div class="col-4">
+                <h4 class="title">Policies</h4>
+                <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('footer_links_policy_' . $lang)->toHtml(); ?>
+            </div>
+            <div class="col-4 connect">
+                <h4 class="title">Connect Us</h4>
+                <?php echo $this->getChildHtml('newsletter'); ?>
+                <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('footer_links_follow_us')->toHtml(); ?>
+            </div>
+        </div><!--/ row -->
     </div><!--/ container -->
 </footer>

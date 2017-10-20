@@ -1,4 +1,4 @@
-//
+
 // Magento
 //
 // NOTICE OF LICENSE
@@ -40,6 +40,139 @@
         .order-links {
             text-align: center;
             width: 100%;
+        }
+    }
+}
+
+
+/* ============================================ *
+ * My Account
+ * ============================================ */
+.customer-account {
+    .group-my-account {
+        .sidebar {
+            margin-top: 49px;
+            .block-account {
+                padding: 15px 19px 15px 20px;
+                display: block;
+                border: 1px solid $color08;
+            }
+            .block-title {
+                padding-bottom: $box-spacing;
+                border-bottom: 1px solid $c-module-border;
+                color: $color09;
+                font-size: $f-size-xl;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-family: $f-roboto-sans;
+                strong {
+                    font-size: inherit;
+                    font-family: inherit;
+                }
+            }
+            .block-content {
+
+            }
+            li {
+                margin: 0 0 8px;
+                font-family: $f-roboto-sans;
+                a {
+                    padding: 0;
+                    display: block;
+                    border: none;
+                    color: $color07;
+                    font-size: $f-size-l;
+                    text-transform: none;
+                    &:focus,
+                    &:hover {
+                        color: $c-blue;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .tab-content {
+            .page-title {
+                h1 {
+                    margin-bottom: $trim-small;
+                    line-height: 1.3;
+                    color: $color07;
+                    font: {
+                        size: $f-size-xxl + 6px;
+                        family: $f-roboto-sans;
+                        weight: normal;
+                    }
+                    text: {
+                        align: center;
+                        transform: uppercase;
+                    }
+                }
+            }
+            .fieldset {
+                margin-top: 0;
+            }
+            .legend {
+                border-bottom: 1px solid $c-module-border;
+                color: $color09;
+                font: {
+                    size: $f-size-xxl;
+                    family: $f-roboto-sans;
+                }
+                text-transform: none;
+            }
+            p.required {
+                float: none;
+            }
+            .form-list {
+                label {
+                    width: 23%;
+                    display: inline-block;
+                    vertical-align: middle;
+                    color: $color07;
+                    font: {
+                        size: $f-size-s;
+                        weight: bold;
+                        family: $f-roboto-sans;
+                    }
+                    line-height: 1.2;
+                    letter-spacing: .5px;
+                }
+                .input-box {
+                    width: 54%;
+                    padding-right: 3px;
+                    padding-left: 6px;
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+                .input-text,
+                .validate-select {
+                    width: 100%;
+                    height: 38px;
+                    line-height: 1.42857143;
+                    padding: 0 10px;
+                    border-color: #ddd;
+                    background: #fff;
+                    background-clip: padding-box;
+                    border-radius: 0;
+                    font: {
+                        size: 13px;
+                        family: $f-roboto-sans;
+                    }
+                    vertical-align: baseline;
+                    box-sizing: border-box;
+                }
+                .control {
+                    padding-left: 23%;
+                    input.checkbox {
+                        margin-top: 8px;
+                        margin-left: 10px;
+                    }
+                    label {
+                        background-color: transparent;
+                        cursor: pointer;
+                    }
+                }
+            }
         }
     }
 }

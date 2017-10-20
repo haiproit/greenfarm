@@ -54,6 +54,9 @@
                 margin: $gap 0 $gap * 2 0;
             }
         }
+        .required {
+            float: none;
+        }
     }
 
     @include bp(min-width, $bp-xsmall + 1) {
@@ -108,14 +111,6 @@
     }
 }
 
-.customer-account-create {
-    .scaffold-form {
-        label:first-child {
-            width: 140px;
-        }
-    }
-}
-
 .opc #opc-login p:not(.required) {
     font-style: italic;
     font-family: $f-stack-serif;
@@ -161,17 +156,39 @@
 }
 
 .customer-account-create {
-    .buttons-set {
-        max-width: 455px;
+    .col-main {
+        text-align: center;
+    }
+    .account-create {
+        width: 500px;
+        margin: auto;
+        padding-bottom: $box-spacing-large;
+        display: inline-block;
+        text-align: left;
+        @include bp(max-width, $bp-medium) {
+            width: 100%;
+            padding: 0 15px;
+            display: block;
+        }
+    }
+    .fieldset {
+        p.required {
+            float: none;
+        }
+        .form-list {
+            .control {
+                label {
+                    background-color: transparent;
+                    cursor: pointer;
+                }
+            }
+        }
+        .input-text {
+            width: 100%;
+        }
     }
 
-    .fieldset,
     .buttons-set {
-        margin-left: $trim;
-
-        @include bp(max-width, $bp-xsmall) {
-            margin-left: 0;
-        }
     }
 
     .fieldset .hidden {
