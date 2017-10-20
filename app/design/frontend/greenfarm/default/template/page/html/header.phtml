@@ -75,11 +75,16 @@
             </a>
 
             <div class="account-cart-wrapper">
-                <a href="<?php echo $this->helper('customer')->getAccountUrl(); ?>"
-                   data-target-element="#header-account" class="skip-link skip-account">
-                    <span class="icon"></span>
-                    <span class="label"><?php echo $this->__('Account'); ?></span>
-                </a>
+                <div class="block-account">
+                    <a href="<?php echo $this->helper('customer')->getAccountUrl(); ?>"
+                       data-target-element="#header-account" class="skip-link skip-account">
+                        <span class="icon"></span>
+                        <span class="label"><?php echo $this->__('Account'); ?></span>
+                    </a>
+                    <div id="header-account" class="skip-content">
+                        <?php echo $this->getChildHtml('topLinks') ?>
+                    </div>
+                </div><!--/ block-account -->
 
                 <!-- Cart -->
 
@@ -106,9 +111,6 @@
     </div>
     <!-- Account -->
 
-    <div id="header-account" class="skip-content">
-        <?php echo $this->getChildHtml('topLinks') ?>
-    </div>
 </header>
 
 

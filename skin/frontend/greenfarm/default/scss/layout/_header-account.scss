@@ -66,8 +66,9 @@
         display: block;
         position: absolute;
         z-index: 200;
-        top: 40px;
-        right: 115px;
+        top: 100%;
+        left: 0;
+        //right: 115px;
         width: 200px;
     }
 

@@ -1891,3 +1891,18 @@ body.customer-account .data-table {
     max-height: 50px;
     width: auto;
 }
+
+/* ============================================ *
+ * block-banner
+ * ============================================ */
+
+.block-banner {
+    display: block;
+    margin-bottom: $box-spacing-large;
+    text-align: center;
+    img {
+        max-width: 100%;
+        display: inline-block;
+    }
+}
+

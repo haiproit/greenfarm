@@ -41,24 +41,18 @@ $j(document).ready(function () {
     //         next: '.slideshow-next',
     //         fx: 'scrollHorz'
     //     });
-    $j('.owl-carousel').owlCarousel({
+    $j('.products-carousel').owlCarousel({
         loop:true,
         responsiveClass:true,
         dots: false,
-        responsive:{
-            0:{
-                items:1,
-                nav:true
-            },
-            600:{
-                items:1,
-                nav:false
-            },
-            1000:{
-                items:1,
-                nav:true,
-                loop:false
-            }
-        }
+        items:1,
+        nav:true,
+    });
+    $j('.banner-carousel').owlCarousel({
+        loop:true,
+        items:1,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        lazyLoad: true
     })
 });

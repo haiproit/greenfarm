@@ -99,6 +99,26 @@
         }
     }
 }
+.form-language {
+    width: 140px;
+    height: 30px;
+    overflow: hidden;
+    background: url(../images/select-dow.png) no-repeat 96% center;
+    border: 1px solid $c-input-border;
+    select {
+        width: 110%;
+        height: 30px;
+        padding: 5px; /* If you add too much padding here, the options won't show in IE */
+        border: none;
+        color: $c-text-white;
+        font-size: 14px;
+        background: transparent;
+        cursor: pointer;
+        option {
+             color: $c-black;
+        }
+    }
+}
 .header-grid {
     background-color: $c-blue;
     .container {
@@ -116,7 +136,7 @@
     .list li,
     .store-language {
         display: inline-block;
-        vertical-align: top;
+        vertical-align: middle;
     }
     .list {
         color: $c-white;
@@ -126,9 +146,14 @@
         a {
             color: $c-white;
             margin-left: 5px;
+            &:focus,
+            &:hover {
+                color: $color04;
+                text-decoration: none;
+            }
         }
         label {
-            margin-right: 10px;
+            margin-left: 10px;
         }
     }
 }
@@ -198,6 +223,15 @@
         border: 0;
     }
 
+}
+
+/* -------------------------------------------- *
+ * block-account
+ */
+
+.block-account {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 /* -------------------------------------------- *
