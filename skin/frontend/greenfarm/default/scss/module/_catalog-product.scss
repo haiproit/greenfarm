@@ -983,6 +983,7 @@ $productsItemHeight: 250px;
         }
         .item {
             margin-bottom: $trim-small;
+            margin-left: 0;
             display: inline-block;
             vertical-align: top;
             position: relative;
@@ -1086,6 +1087,20 @@ $productsItemHeight: 250px;
     }
     .product-info {
         padding: 10px;
+        .actions {
+        }
+        .add-to-links {
+            margin: 0;
+            padding-top: $box-spacing;
+            list-style: none;
+            li {
+                margin-left: 0;
+                display: inline-block;
+                vertical-align: middle;
+            }
+            .link-wishlist {
+            }
+        }
     }
     .product-name {
         font-size: $f-size;

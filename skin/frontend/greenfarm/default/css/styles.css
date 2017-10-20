@@ -2465,6 +2465,19 @@ body.customer-account .data-table .show-details .summary-collapse:hover:before {
 }
 
 /* ============================================ *
+ * block-banner
+ * ============================================ */
+.block-banner {
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.block-banner img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+/* ============================================ *
  * FORMS - COMMON
  * ============================================ */
 /* -------------------------------------------- *
@@ -3201,6 +3214,28 @@ body {
     font-size: 12px;
   }
 }
+.form-language {
+  width: 140px;
+  height: 30px;
+  overflow: hidden;
+  background: url(../images/select-dow.png) no-repeat 96% center;
+  border: 1px solid #C0C0C0;
+}
+.form-language select {
+  width: 110%;
+  height: 30px;
+  padding: 5px;
+  /* If you add too much padding here, the options won't show in IE */
+  border: none;
+  color: #E6E6E6;
+  font-size: 14px;
+  background: transparent;
+  cursor: pointer;
+}
+.form-language select option {
+  color: #000000;
+}
+
 .header-grid {
   background-color: #3399CC;
 }
@@ -3220,7 +3255,7 @@ body {
 .header-grid .list li,
 .header-grid .store-language {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
 }
 .header-grid .list {
   color: #ffffff;
@@ -3232,8 +3267,12 @@ body {
   color: #ffffff;
   margin-left: 5px;
 }
+.header-grid .list a:focus, .header-grid .list a:hover {
+  color: #f90;
+  text-decoration: none;
+}
 .header-grid .list label {
-  margin-right: 10px;
+  margin-left: 10px;
 }
 
 /* ============================================ *
@@ -3289,6 +3328,14 @@ body {
     border: 0;
   }
 }
+/* -------------------------------------------- *
+ * block-account
+ */
+.block-account {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 /* -------------------------------------------- *
  * Skip - Link
  */
@@ -3809,8 +3856,8 @@ a.skip-link {
     display: block;
     position: absolute;
     z-index: 200;
-    top: 40px;
-    right: 115px;
+    top: 100%;
+    left: 0;
     width: 200px;
   }
 
@@ -4029,6 +4076,7 @@ a.skip-link {
   clear: both;
   width: 100%;
   padding-top: 30px;
+  padding-bottom: 10px;
   background-color: #131313;
   border-top: 1px solid #CCCCCC;
   font-size: 14px;
@@ -4086,8 +4134,9 @@ a.skip-link {
   background-image: url(../images/icon-twitter.png);
 }
 .footer .block-title {
-  border-bottom: 0;
   padding: 3px 0;
+  margin-bottom: 0;
+  border: none;
 }
 .footer .block-title strong {
   font-weight: normal;
@@ -4114,11 +4163,7 @@ a.skip-link {
   color: #f90;
 }
 .footer .block-subscribe {
-  float: right;
-  width: 320px;
   margin-bottom: 30px;
-}
-.footer .block-subscribe {
   font-size: 12px;
 }
 .footer .form-subscribe-header {
@@ -4185,9 +4230,6 @@ a.skip-link {
   -webkit-border-radius: 0;
   border-radius: 0;
 }
-.footer .block-subscribe .block-content {
-  padding-top: 7px;
-}
 .footer .block-subscribe .block-content:after {
   content: '';
   display: table;
@@ -4199,9 +4241,10 @@ a.skip-link {
   margin: 0;
 }
 .footer .block-subscribe .actions .button {
+  float: none;
+  width: 100%;
   height: 30px;
   line-height: 17px;
-  float: left;
 }
 .footer .bugs,
 .footer address {
@@ -5969,6 +6012,7 @@ p.product-name a:hover {
 }
 .products-items .products_grid .item {
   margin-bottom: 15px;
+  margin-left: 0;
   display: inline-block;
   vertical-align: top;
   position: relative;
@@ -6058,6 +6102,16 @@ p.product-name a:hover {
 }
 .products-items .product-info {
   padding: 10px;
+}
+.products-items .product-info .add-to-links {
+  margin: 0;
+  padding-top: 10px;
+  list-style: none;
+}
+.products-items .product-info .add-to-links li {
+  margin-left: 0;
+  display: inline-block;
+  vertical-align: middle;
 }
 .products-items .product-name {
   font-size: 14px;
@@ -9210,10 +9264,6 @@ div.paypal-logo span > img {
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
 }
-.owl-carousel .owl-item img {
-  display: block;
-  width: 100%;
-}
 .owl-carousel .owl-nav.disabled,
 .owl-carousel .owl-dots.disabled {
   display: none;
@@ -9295,9 +9345,6 @@ div.paypal-logo span > img {
 .owl-carousel .owl-nav .disabled:focus, .owl-carousel .owl-nav .disabled:hover {
   background-position: 0 0;
 }
-.owl-carousel .owl-nav.disabled + .owl-dots {
-  margin-top: 10px;
-}
 .owl-carousel .owl-dots {
   text-align: center;
   -webkit-tap-highlight-color: transparent;
@@ -9310,7 +9357,7 @@ div.paypal-logo span > img {
 .owl-carousel .owl-dots .owl-dot span {
   width: 10px;
   height: 10px;
-  margin: 30px;
+  margin: 0 5px;
   background: #333333;
   display: block;
   -webkit-backface-visibility: visible;
@@ -9618,6 +9665,7 @@ div.paypal-logo span > img {
  * ============================================ */
 .header-minicart {
   display: inline-block;
+  vertical-align: middle;
 }
 @media only screen and (max-width: 770px) {
   .header-minicart {
