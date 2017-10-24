@@ -574,7 +574,7 @@ a.button:hover {
 
 .breadcrumbs {
     overflow: hidden;
-    margin: 0 0 15px;
+    margin: 0 $trim $trim-small;
     ul {
         &:before,
         &:after {
@@ -583,8 +583,10 @@ a.button:hover {
     }
     li {
         float: left;
-        font-size: $f-size-xs;
-        font-family: $f-stack-special;
+        font: {
+            size: $f-size-xs;
+            family: $f-roboto-sans;
+        }
         text-transform: uppercase;
     }
     a {

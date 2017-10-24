@@ -988,7 +988,7 @@ a.button:hover {
  */
 .breadcrumbs {
   overflow: hidden;
-  margin: 0 0 15px;
+  margin: 0 30px 15px;
 }
 .breadcrumbs ul:before, .breadcrumbs ul:after {
   content: '';
@@ -998,7 +998,7 @@ a.button:hover {
 .breadcrumbs li {
   float: left;
   font-size: 12px;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
 }
 .breadcrumbs a {
