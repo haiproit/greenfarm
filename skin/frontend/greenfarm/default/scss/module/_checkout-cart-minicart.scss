@@ -60,10 +60,10 @@
         font-size: 10px;
         font-weight: bold;
         line-height: 1.4;
-        padding: 5px;
+        padding: $gap $gap/2 $gap/2;
         text-align: center;
         text-transform: uppercase;
-        margin-bottom: 0px;
+        margin-bottom: 0;
 
         .close {
             width: 40px;
@@ -111,17 +111,17 @@
     .info-wrapper {
         margin-bottom: 0.5em;
 
-        th {
+        label {
             text-transform: uppercase;
             padding-right: $gap;
         }
-        td {
+        p {
             color: $c-text-primary;
             clear: right;
         }
 
         .qty-wrapper {
-            td {
+            p {
                 height: 33px;
                 line-height: 33px;
             }
