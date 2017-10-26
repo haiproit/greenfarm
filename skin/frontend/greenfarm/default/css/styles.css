@@ -1142,9 +1142,14 @@ a.button:hover {
 /* -------------------------------------------- *
  * Breadcrumbs
  */
+.section-breadcrumb {
+  background-color: #eee;
+}
+
 .breadcrumbs {
+  padding: 15px 0;
+  margin: 0 30px;
   overflow: hidden;
-  margin: 0 0 15px;
 }
 .breadcrumbs ul:before, .breadcrumbs ul:after {
   content: '';
@@ -1154,7 +1159,7 @@ a.button:hover {
 .breadcrumbs li {
   float: left;
   font-size: 12px;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
 }
 .breadcrumbs a {
@@ -2593,6 +2598,31 @@ select[multiple] {
   padding: 5px;
 }
 
+select.validate-select {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+select.validate-select:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
 /* -------------------------------------------- *
  * Textarea
  */
@@ -2614,8 +2644,12 @@ textarea {
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
+  height: 34px;
+  line-height: 1.42857143;
+  padding: 6px 12px;
   border: 1px solid #C0C0C0;
-  background: #FFFFFF;
+  background-color: #ffffff;
+  background-image: none;
   font-size: 15px;
 }
 .input-text:focus {
@@ -3151,8 +3185,15 @@ body {
 }
 
 .main {
+  background-color: #ffffff;
+}
+.main .container {
   padding-top: 15px;
-  background-color: #eee;
+}
+.main .container:before, .main .container:after {
+  content: '';
+  display: table;
+  clear: both;
 }
 
 /* ============================================ *
@@ -3550,33 +3591,18 @@ a.skip-link {
   position: relative;
 }
 .menu .navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  margin: 20px -5px 0;
+  font-size: 0;
 }
 .menu .navbar > li {
-  -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -ms-flex-preferred-size: 0;
-  flex-basis: 0;
-  margin: 0 5px;
-  display: block;
-  max-width: 100%;
+  padding: 0 15px;
+  margin: 10px 10px 0;
+  display: inline-block;
+  vertical-align: middle;
   position: relative;
+  font-size: 16px;
+}
+.menu .navbar > li:first-child {
+  margin-left: 0;
 }
 .menu .navbar > li:focus > a, .menu .navbar > li:hover > a {
   color: #f90;
@@ -3585,8 +3611,7 @@ a.skip-link {
   display: block;
 }
 .menu .navbar > li > a {
-  padding: 10px 0;
-  font-size: 20px;
+  padding: 5px 0;
 }
 .menu .navbar a {
   padding: 3px 0;
@@ -3610,6 +3635,9 @@ a.skip-link {
   transform: translate(-50%, 0);
   text-align: left;
   overflow: hidden;
+}
+.menu .navbar .dropdown-menu a {
+  font-size: 13px;
 }
 
 /* ============================================ *
@@ -11456,6 +11484,36 @@ div.paypal-logo span > img {
 .customer-account .group-my-account .tab-content .form-list .control label {
   background-color: transparent;
   cursor: pointer;
+}
+.customer-account .group-my-account .tab-content .buttons-set {
+  padding-left: 23%;
+}
+.customer-account .group-my-account .tab-content .buttons-set .back-link {
+  margin-right: 15px;
+  padding-left: 10px;
+  text-align: center;
+}
+.customer-account .group-my-account .tab-content .buttons-set .back-link a {
+  min-width: 134px;
+  padding: 7px 10px 8px;
+  display: block;
+  color: #444;
+  font-size: 14px;
+  text-decoration: none;
+  border: 1px solid #999;
+}
+.customer-account .group-my-account .tab-content .buttons-set .back-link small {
+  margin-top: -2px;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 18px;
+}
+.customer-account .group-my-account .tab-content .buttons-set button.button {
+  float: left;
+  line-height: 24px;
+  font-size: 14px;
+  text-transform: none;
 }
 
 /* ============================================ *

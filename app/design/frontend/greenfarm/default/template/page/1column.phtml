@@ -47,9 +47,13 @@
     <?php echo $this->getChildHtml('global_notices') ?>
     <div class="page" id="page-content-wrapper">
         <?php echo $this->getChildHtml('header') ?>
-        <div class="main">
-            <div class="container col1-layout">
+        <section class="section-breadcrumb">
+            <div class="container">
                 <?php echo $this->getChildHtml('breadcrumbs') ?>
+            </div>
+        </section>
+        <div class="main">
+            <div class="container main-container col1-layout">
                 <div class="col-main">
                     <?php echo $this->getChildHtml('global_messages') ?>
                     <?php echo $this->getChildHtml('content') ?>

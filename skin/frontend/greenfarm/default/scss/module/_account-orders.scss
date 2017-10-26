@@ -173,6 +173,36 @@
                     }
                 }
             }
+            .buttons-set {
+                padding-left: 23%;
+                .back-link {
+                    margin-right: 15px;
+                    padding-left: $box-spacing;
+                    text-align: center;
+                    a {
+                        min-width: 134px;
+                        padding: 7px 10px 8px;
+                        display: block;
+                        color: $color07;
+                        font-size: $f-size;
+                        text-decoration: none;
+                        border: 1px solid $color05;
+                    }
+                    small {
+                        margin-top: -2px;
+                        margin-right: 5px;
+                        display: inline-block;
+                        vertical-align: top;
+                        font-size: $f-size-xxl;
+                    }
+                }
+                button.button {
+                    float: left;
+                    line-height: 24px;
+                    font-size: $f-size;
+                    text-transform: none;
+                }
+            }
         }
     }
 }

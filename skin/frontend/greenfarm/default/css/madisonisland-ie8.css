@@ -44,6 +44,9 @@ body.cms-home .main-container {
 body.cms-home .slideshow-container {
   margin-top: 0;
 }
+body.cms-home .main {
+  background-color: #eee;
+}
 
 .slideshow .banner-msg {
   position: absolute;
