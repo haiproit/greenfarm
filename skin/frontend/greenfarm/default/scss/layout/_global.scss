@@ -50,6 +50,12 @@ body {
 }
 
 .main {
-    padding-top: $trim-small;
-    background-color: $bg04;
+    background-color: $c-white;
+    .container {
+        padding-top: $trim-small;
+        &:before,
+        &:after {
+            @include clearfix;
+        }
+    }
 }

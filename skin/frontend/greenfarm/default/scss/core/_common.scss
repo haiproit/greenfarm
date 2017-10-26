@@ -572,9 +572,13 @@ a.button:hover {
  * Breadcrumbs
  */
 
+.section-breadcrumb {
+    background-color: $bg04;
+}
 .breadcrumbs {
+    padding: $trim-small 0;
+    margin: 0 $trim;
     overflow: hidden;
-    margin: 0 $trim $trim-small;
     ul {
         &:before,
         &:after {
