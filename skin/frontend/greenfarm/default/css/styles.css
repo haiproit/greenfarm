@@ -10612,10 +10612,10 @@ div.paypal-logo span > img {
   font-size: 10px;
   font-weight: bold;
   line-height: 1.4;
-  padding: 5px;
+  padding: 10px 5px 5px;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 .header-minicart .block-subtitle .close {
   width: 40px;
@@ -10654,15 +10654,15 @@ div.paypal-logo span > img {
 .header-minicart .info-wrapper {
   margin-bottom: 0.5em;
 }
-.header-minicart .info-wrapper th {
+.header-minicart .info-wrapper label {
   text-transform: uppercase;
   padding-right: 10px;
 }
-.header-minicart .info-wrapper td {
+.header-minicart .info-wrapper p {
   color: #3399CC;
   clear: right;
 }
-.header-minicart .info-wrapper .qty-wrapper td {
+.header-minicart .info-wrapper .qty-wrapper p {
   height: 33px;
   line-height: 33px;
 }

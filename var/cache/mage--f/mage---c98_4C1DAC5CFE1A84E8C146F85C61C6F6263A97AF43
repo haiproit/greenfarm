@@ -1,0 +1,67 @@
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <h4 class="title">GreenFarm 6 Banh</h4>
+                <div class="links">
+<ul>
+<li><span>Địa chỉ: 123/2/3, Đường Lý Thường Kiết, Quận Tân Bình, Tp. Hồ Chí Minh</span></li>
+<li><span>Điện thoại: </span><a href="tel: +84 0123 456 7891">+84 0123 456 7891</a></li>
+<li><span>Email: greenfarm@gmail.com</span><span>greenfarm@gmail.com</span></li>
+</ul>
+</div>            </div>
+            <div class="col-4">
+                <h4 class="title">About US</h4>
+                <div class="links">
+<ul>
+<li><a href="http://greenfarm.dev/vietnamese/?___SID=U">Về chúng tôi</a></li>
+<li><a href="http://greenfarm.dev/vietnamese/?___SID=U">Tầm nhìn - sứ mệnh</a></li>
+<li><a href="http://greenfarm.dev/vietnamese/?___SID=U">Bộ máy tổ chức</a></li>
+<li><a href="http://greenfarm.dev/vietnamese/?___SID=U">Hệ thống phân phối</a></li>
+<li><a href="http://greenfarm.dev/vietnamese/?___SID=U"> Đối tác</a></li>
+</ul>
+</div>            </div>
+            <div class="col-4">
+                <h4 class="title">Policies</h4>
+                <div class="links">
+<ul>
+<li><a href="http://greenfarm.dev/vietnamese/?___SID=U">Chính Sách Riêng Tư</a></li>
+<li><a href="http://greenfarm.dev/vietnamese/?___SID=U">Điều Khoản & Điều Kiện</a></li>
+<li><a href="http://greenfarm.dev/vietnamese/?___SID=U">Thỏa Thuận Người Dùng</a></li>
+<li><a href="http://greenfarm.dev/vietnamese/?___SID=U">Chính sách đổi trả</a></li>
+<li><a href="http://greenfarm.dev/vietnamese/?___SID=U">Chính sách bảo hành</a></li>
+</ul>
+</div>            </div>
+            <div class="col-4 connect">
+                <h4 class="title">Connect Us</h4>
+                <div class="block block-subscribe">
+    <div class="block-title">
+        <strong><span>Newsletter</span></strong>
+    </div>
+    <form action="http://greenfarm.dev/vietnamese/newsletter/subscriber/new/?___SID=U" method="post" id="newsletter-validate-detail">
+        <div class="block-content">
+            <div class="form-subscribe-header">
+                <label for="newsletter">Sign Up for Our Newsletter:</label>
+            </div>
+            <div class="input-box">
+               <input type="email" autocapitalize="off" autocorrect="off" spellcheck="false" name="email" id="newsletter" title="Sign up for our newsletter" class="input-text required-entry validate-email" />
+            </div>
+            <div class="actions">
+                <button type="submit" title="Subscribe" class="button"><span><span>Subscribe</span></span></button>
+            </div>
+        </div>
+    </form>
+    <script type="text/javascript">
+    //<![CDATA[
+        var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail');
+    //]]>
+    </script>
+</div>
+                <span class="tm-social-tit">Follow us on</span><br class="visible-xs">
+<a href="http://greenfarm.dev/vietnamese/ ?___SID=U"><span class="icon-social icon-social-facebook">Facebook</span></a>
+<a href="http://greenfarm.dev/vietnamese/ ?___SID=U"><span class="icon-social icon-social-instagram">Instagram</span></a>
+<a href="http://greenfarm.dev/vietnamese/ ?___SID=U"><span class="icon-social icon-social-youtube">Youtube</span></a>            </div>
+        </div><!--/ row -->
+    </div><!--/ container -->
+</footer>
