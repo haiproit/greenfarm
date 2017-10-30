@@ -1,7 +1,0 @@
-<?php
-$lang = (Mage::app()->getStore()->getStoreID() == 1) ? 'en' : 'vn';
-?>
-
-<div class="navbar-menu">
-    <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('top_main_menu_'.$lang)->toHtml(); ?>
-</div>

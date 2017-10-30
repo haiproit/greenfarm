@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<!-- Extends theme Greenfarm form RWD -->
-<theme>
-    <parent>rwd/default</parent>
-</theme>
-
-
