@@ -1,0 +1,171 @@
+2017-09-27T07:18:08+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : StartTag: invalid element name  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:08+00:00 ERR (3): Warning: simplexml_load_string():     &lt;&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:08+00:00 ERR (3): Warning: simplexml_load_string():      ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:08+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 30: parser error : Opening and ending tag mismatch: config line 2 and global  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:08+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/global&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:08+00:00 ERR (3): Warning: simplexml_load_string():              ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:08+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : Extra content at the end of the document  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:08+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:08+00:00 ERR (3): Warning: simplexml_load_string(): ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:17+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : StartTag: invalid element name  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:17+00:00 ERR (3): Warning: simplexml_load_string():     &lt;&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:17+00:00 ERR (3): Warning: simplexml_load_string():      ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:17+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 30: parser error : Opening and ending tag mismatch: config line 2 and global  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:17+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/global&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:17+00:00 ERR (3): Warning: simplexml_load_string():              ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:17+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : Extra content at the end of the document  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:17+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:17+00:00 ERR (3): Warning: simplexml_load_string(): ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:23+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : StartTag: invalid element name  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:23+00:00 ERR (3): Warning: simplexml_load_string():     &lt;&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:23+00:00 ERR (3): Warning: simplexml_load_string():      ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:23+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 30: parser error : Opening and ending tag mismatch: config line 2 and global  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:23+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/global&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:23+00:00 ERR (3): Warning: simplexml_load_string():              ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:23+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : Extra content at the end of the document  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:23+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:23+00:00 ERR (3): Warning: simplexml_load_string(): ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:44+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : StartTag: invalid element name  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:44+00:00 ERR (3): Warning: simplexml_load_string():     &lt;&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:44+00:00 ERR (3): Warning: simplexml_load_string():      ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:44+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 30: parser error : Opening and ending tag mismatch: config line 2 and global  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:44+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/global&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:44+00:00 ERR (3): Warning: simplexml_load_string():              ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:44+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : Extra content at the end of the document  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:44+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:44+00:00 ERR (3): Warning: simplexml_load_string(): ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:49+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : StartTag: invalid element name  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:49+00:00 ERR (3): Warning: simplexml_load_string():     &lt;&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:49+00:00 ERR (3): Warning: simplexml_load_string():      ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:49+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 30: parser error : Opening and ending tag mismatch: config line 2 and global  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:49+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/global&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:49+00:00 ERR (3): Warning: simplexml_load_string():              ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:49+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : Extra content at the end of the document  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:49+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:49+00:00 ERR (3): Warning: simplexml_load_string(): ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:49+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : StartTag: invalid element name  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:49+00:00 ERR (3): Warning: simplexml_load_string():     &lt;&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:49+00:00 ERR (3): Warning: simplexml_load_string():      ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:49+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 30: parser error : Opening and ending tag mismatch: config line 2 and global  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:49+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/global&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:49+00:00 ERR (3): Warning: simplexml_load_string():              ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:49+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : Extra content at the end of the document  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:49+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:18:49+00:00 ERR (3): Warning: simplexml_load_string(): ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : StartTag: invalid element name  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:04+00:00 ERR (3): Warning: simplexml_load_string():     &lt;&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:04+00:00 ERR (3): Warning: simplexml_load_string():      ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 30: parser error : Opening and ending tag mismatch: config line 2 and global  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:04+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/global&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:04+00:00 ERR (3): Warning: simplexml_load_string():              ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : Extra content at the end of the document  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:04+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:04+00:00 ERR (3): Warning: simplexml_load_string(): ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:40+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : StartTag: invalid element name  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:40+00:00 ERR (3): Warning: simplexml_load_string():     &lt;&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:40+00:00 ERR (3): Warning: simplexml_load_string():      ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:40+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 30: parser error : Opening and ending tag mismatch: config line 2 and global  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:40+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/global&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:40+00:00 ERR (3): Warning: simplexml_load_string():              ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:40+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : Extra content at the end of the document  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:40+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:40+00:00 ERR (3): Warning: simplexml_load_string(): ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:51+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : StartTag: invalid element name  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:51+00:00 ERR (3): Warning: simplexml_load_string():     &lt;&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:51+00:00 ERR (3): Warning: simplexml_load_string():      ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:51+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 30: parser error : Opening and ending tag mismatch: config line 2 and global  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:51+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/global&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:51+00:00 ERR (3): Warning: simplexml_load_string():              ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:51+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : Extra content at the end of the document  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:51+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:51+00:00 ERR (3): Warning: simplexml_load_string(): ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : StartTag: invalid element name  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:56+00:00 ERR (3): Warning: simplexml_load_string():     &lt;&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:56+00:00 ERR (3): Warning: simplexml_load_string():      ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 30: parser error : Opening and ending tag mismatch: config line 2 and global  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:56+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/global&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:56+00:00 ERR (3): Warning: simplexml_load_string():              ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:56+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : Extra content at the end of the document  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:56+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:56+00:00 ERR (3): Warning: simplexml_load_string(): ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:59+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : StartTag: invalid element name  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:59+00:00 ERR (3): Warning: simplexml_load_string():     &lt;&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:59+00:00 ERR (3): Warning: simplexml_load_string():      ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:59+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 30: parser error : Opening and ending tag mismatch: config line 2 and global  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:59+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/global&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:59+00:00 ERR (3): Warning: simplexml_load_string():              ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:59+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : Extra content at the end of the document  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:59+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:19:59+00:00 ERR (3): Warning: simplexml_load_string(): ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:01+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : StartTag: invalid element name  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:01+00:00 ERR (3): Warning: simplexml_load_string():     &lt;&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:01+00:00 ERR (3): Warning: simplexml_load_string():      ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:01+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 30: parser error : Opening and ending tag mismatch: config line 2 and global  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:01+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/global&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:01+00:00 ERR (3): Warning: simplexml_load_string():              ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:01+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : Extra content at the end of the document  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:01+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:01+00:00 ERR (3): Warning: simplexml_load_string(): ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : StartTag: invalid element name  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:04+00:00 ERR (3): Warning: simplexml_load_string():     &lt;&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:04+00:00 ERR (3): Warning: simplexml_load_string():      ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 30: parser error : Opening and ending tag mismatch: config line 2 and global  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:04+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/global&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:04+00:00 ERR (3): Warning: simplexml_load_string():              ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : Extra content at the end of the document  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:04+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:04+00:00 ERR (3): Warning: simplexml_load_string(): ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:07+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : StartTag: invalid element name  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:07+00:00 ERR (3): Warning: simplexml_load_string():     &lt;&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:07+00:00 ERR (3): Warning: simplexml_load_string():      ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:07+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 30: parser error : Opening and ending tag mismatch: config line 2 and global  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:07+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/global&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:07+00:00 ERR (3): Warning: simplexml_load_string():              ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:07+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : Extra content at the end of the document  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:07+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:07+00:00 ERR (3): Warning: simplexml_load_string(): ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:17+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : StartTag: invalid element name  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:17+00:00 ERR (3): Warning: simplexml_load_string():     &lt;&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:17+00:00 ERR (3): Warning: simplexml_load_string():      ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:17+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 30: parser error : Opening and ending tag mismatch: config line 2 and global  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:17+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/global&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:17+00:00 ERR (3): Warning: simplexml_load_string():              ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:17+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : Extra content at the end of the document  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:17+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:17+00:00 ERR (3): Warning: simplexml_load_string(): ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:17+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : StartTag: invalid element name  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:17+00:00 ERR (3): Warning: simplexml_load_string():     &lt;&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:17+00:00 ERR (3): Warning: simplexml_load_string():      ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:17+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 30: parser error : Opening and ending tag mismatch: config line 2 and global  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:17+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/global&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:17+00:00 ERR (3): Warning: simplexml_load_string():              ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:17+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : Extra content at the end of the document  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:17+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:17+00:00 ERR (3): Warning: simplexml_load_string(): ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:21+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : StartTag: invalid element name  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:21+00:00 ERR (3): Warning: simplexml_load_string():     &lt;&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:21+00:00 ERR (3): Warning: simplexml_load_string():      ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:21+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 30: parser error : Opening and ending tag mismatch: config line 2 and global  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:21+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/global&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:21+00:00 ERR (3): Warning: simplexml_load_string():              ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:21+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : Extra content at the end of the document  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:21+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:21+00:00 ERR (3): Warning: simplexml_load_string(): ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:22+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : StartTag: invalid element name  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:22+00:00 ERR (3): Warning: simplexml_load_string():     &lt;&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:22+00:00 ERR (3): Warning: simplexml_load_string():      ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:22+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 30: parser error : Opening and ending tag mismatch: config line 2 and global  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:22+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/global&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:22+00:00 ERR (3): Warning: simplexml_load_string():              ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:22+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : Extra content at the end of the document  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:22+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:22+00:00 ERR (3): Warning: simplexml_load_string(): ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:38+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : StartTag: invalid element name  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:38+00:00 ERR (3): Warning: simplexml_load_string():     &lt;&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:38+00:00 ERR (3): Warning: simplexml_load_string():      ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:38+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 30: parser error : Opening and ending tag mismatch: config line 2 and global  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:38+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/global&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:38+00:00 ERR (3): Warning: simplexml_load_string():              ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:38+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 31: parser error : Extra content at the end of the document  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:38+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510
+2017-09-27T07:20:38+00:00 ERR (3): Warning: simplexml_load_string(): ^  in /Volumes/Data/htdocs/greenfarm/lib/Varien/Simplexml/Config.php on line 510

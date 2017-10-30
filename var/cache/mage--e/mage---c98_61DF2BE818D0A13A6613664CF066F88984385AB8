@@ -1,0 +1,19 @@
+
+<div class="navbar-menu">
+    <ul class="navbar">
+    <li class="active"><a href="#">Home</a></li>
+    <li><a href="#">Vegetables</a></li>
+    <li>
+        <a href="#">Products</a>
+        <ul class="dropdown-menu">
+            <li><a href="#">Vegetables</a></li>
+            <li><a href="#">Meal</a></li>
+            <li><a href="#">Rice</a></li>
+            <li><a href="#">Specialties</a></li>
+            <li><a href="#">Others</a></li>
+        </ul>
+    </li>
+    <li><a href="#">News</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Contact</a></li>
+</ul></div>
